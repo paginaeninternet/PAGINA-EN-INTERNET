@@ -1,0 +1,451 @@
+/* ---------- SECCIÓN DEL BANNER */
+
+.bannerIndex {
+    background-image: url(../imagen/banner/bannerIndex-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75em;
+    padding-top: 6em;
+}
+
+.bannerIndex .body_1200 {
+    display: flex;
+    justify-content: left;
+}
+
+.cajaIzquierda {
+    width: 50%;
+    height: 40em;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo1Banner {
+    font-size: 4em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo2Banner {
+    font-size: 3.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.descripcionBanner {
+    display: block;
+    margin: auto;
+    width: 70%;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* ------------------------
+# SECCIÓN DE BOTON COTIZAR 
+-------------------------*/
+
+.botonCotizacion {
+    display: block;
+    overflow: hidden;
+    width: 25em;
+    padding: 1.2em;
+    background-color: #CE168D;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 10em;
+    position: relative;
+}
+
+.botonCotizacionV2 {
+    margin: auto;
+    width: 70%;
+    height: 2em;
+    padding: 0.5em 0em 1.5em 1em;
+}
+
+.botonCotizacion:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    border-radius: 10em;
+    background: rgba(85, 82, 255, 0.3);
+    transition: all 0.7s ease;
+}
+
+.botonCotizacion:hover:before {
+    width: 100%;
+}
+
+.imgCotizar {
+    width: 3em;
+    float: left;
+    margin-left: 5%;
+}
+
+.mensajeCotizar {
+    display: block;
+    float: right;
+    color: #ffffff;
+    font-size: 1.7em;
+    border-radius: 1px;
+    margin: 0.2em 10% 0em 1em;
+}
+
+.mensajeCotizar2 {
+    font-size: 1.5em;
+    margin: 0.2em 1em 0em 0em;
+}
+
+
+/* ---------- SECCIÓN DE ICONOS DE SERVICIO */
+
+.IconosDeServicios_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tituloLineaDeDesarrollo {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 2em;
+    color: #1f2223;
+}
+
+.ids_icono {
+    width: 26em;
+    padding-bottom: 10em;
+    margin: auto;
+}
+
+.ids_icono img {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.ids_icono h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--colorTextoFuerte);
+    margin-top: 2em;
+}
+
+.ids_icono p {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--colorTexto);
+    margin-top: 1em;
+}
+
+
+/* ---------- SECCIÓN DE INFORMACIÓN DE TEXTO sdit */
+
+.SeccionDeInformacionTexto .body_1200 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sdit_cajaIzquierda {
+    width: 30%;
+}
+
+.sdit_txtTema {
+    font-size: 1.5em;
+}
+
+.sdit_titulo {
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+
+.sdit_cajaDerecha {
+    width: 60%;
+    height: 25em;
+}
+
+.sdit_leyenda {
+    font-size: var(--sizeParrafo);
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--colorTexto);
+}
+
+.sdit_descripcion {
+    font-size: var(--sizeParrafo);
+    margin-top: 1em;
+    line-height: 26px;
+}
+
+.linea2 {
+    margin: auto;
+    width: 30%;
+    margin-left: 0;
+}
+
+
+/* ------------------
+# SECCIÓN 4 DE INDEX
+-------------------*/
+
+.section_4 {
+    margin-bottom: 5em;
+}
+
+.imgServicio {
+    width: 70em;
+    height: 50em;
+    float: left;
+}
+
+.imgServicio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descripcionDeservicios {
+    float: right;
+    width: 50em;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+
+.descripcionDeservicios>h2 {
+    font-size: 3.5em;
+    padding-bottom: 1em;
+    color: var(--colorBase3);
+}
+
+.descripcionDeservicios>p {
+    font-size: var(--sizeParrafo);
+    padding-bottom: 1em;
+    color: var(--colorTexto);
+    text-align: justify;
+}
+
+.botonVerWireframes {
+    text-decoration: none;
+    display: block;
+    border-radius: 100px;
+    width: 30%;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1.6em;
+    text-align: center;
+    color: #fff;
+    float: right;
+    background: rgba(174, 79, 189, 1);
+    background: -moz-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(174, 79, 189, 1)), color-stop(58%, rgba(174, 79, 189, 1)), color-stop(100%, rgba(85, 82, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ae4fbd', endColorstr='#5552ff', GradientType=1);
+}
+
+
+/*<------------SECCIÓN DE PASOS INDEX */
+
+.pasosMiPagina {
+    background-color: #f5f8fd;
+}
+
+.cajaDeInformacionWeb {
+    width: 100%;
+    padding: 0em 0em 4em 0em;
+}
+
+.cajaDeInformacionWeb h2 {
+    font-size: 3em;
+    color: var(--colorTexto);
+    font-weight: 600;
+}
+
+.cajaDeInformacionWeb>p {
+    font-size: 1.6em;
+    color: var(--colorTexto);
+    margin-top: 1em;
+}
+
+.cajaDePasos {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pasosIndex {
+    width: 28em;
+    height: 60em;
+    padding: 2em;
+    margin-bottom: 5em;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px -3px rgba(63, 56, 68, 1);
+}
+
+.tituloPaso {
+    font-size: 4em;
+    color: #413e66;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.lineaPasos {
+    width: 60%;
+    height: 3px;
+    margin: auto;
+    background: rgba(174, 79, 189, 1);
+    background: -moz-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(174, 79, 189, 1)), color-stop(58%, rgba(174, 79, 189, 1)), color-stop(100%, rgba(85, 82, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ae4fbd', endColorstr='#5552ff', GradientType=1);
+}
+
+.imgPasos {
+    width: 25em;
+    display: block;
+    margin: auto
+}
+
+.temporal {
+    margin-top: 5.7em;
+    margin-bottom: 5.7em;
+}
+
+.descripcionPaso {
+    color: var(--colorBase4);
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+.estiloPasoFinal {
+    background: rgba(85, 82, 255, 1);
+    background: -moz-linear-gradient(left, rgba(85, 82, 255, 1) 0%, rgba(137, 135, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(85, 82, 255, 1)), color-stop(100%, rgba(137, 135, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(85, 82, 255, 1) 0%, rgba(137, 135, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(85, 82, 255, 1) 0%, rgba(137, 135, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(85, 82, 255, 1) 0%, rgba(137, 135, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(85, 82, 255, 1) 0%, rgba(137, 135, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5552ff', endColorstr='#8987ff', GradientType=1);
+}
+
+.estipoTextoPasoFinal {
+    font-size: 4em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.lineablanca {
+    width: 60%;
+    height: 3px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.parrafoPasoFinal {
+    color: #ffffff;
+    font-size: 1.6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    .ids_icono h2 {
+        font-size: 1.7em;
+    }
+    .ids_icono p {
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {
+    .bannerIndex {
+        height: 60em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .cajaIzquierda {
+        width: 100%;
+    }
+    /* --------------------- */
+    .IconosDeServicios_2 {
+        flex-wrap: wrap;
+    }
+    .ids_icono h2 {
+        font-size: 2em;
+    }
+    .ids_icono p {
+        font-size: 1.5em;
+    }
+    /* -------------------- */
+    .SeccionDeInformacionTexto .body_1200 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sdit_cajaIzquierda {
+        width: 100%;
+    }
+    .sdit_cajaDerecha {
+        width: 100%;
+    }
+    /* ------------------------------ */
+    .imgServicio {
+        height: 55em;
+    }
+    .section_4 div {
+        width: 100%;
+        padding: 0;
+    }
+    /* ------------------------------ */
+}
+
+@media only screen and (max-width: 480px) {
+    .ids_icono h2 {
+        font-size: 2em;
+    }
+    .ids_icono p {
+        font-size: 2em;
+    }
+    /* ------------------------------ */
+    .pasosIndex {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .tituloLineaDeDesarrollo {
+        font-size: 3em;
+    }
+    /* ------------------------------- */
+    .pasosIndex {
+        font-size: 1.3em;
+    }
+}

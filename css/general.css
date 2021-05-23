@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+
+/* NORMA GENERAL DE LA PÁGINA*/
+
+.body_100_por_ciento {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0em;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+.body_1200 {
+    font-size: 10px;
+    max-width: 1200px;
+    height: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    overflow: hidden;
+    margin: auto;
+}
+
+.none {
+    display: none;
+}
+
+.linea {
+    width: 50%;
+    height: 0.3em;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background: rgba(174, 79, 189, 1);
+    background: -moz-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(174, 79, 189, 1)), color-stop(58%, rgba(174, 79, 189, 1)), color-stop(100%, rgba(85, 82, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(174, 79, 189, 1) 0%, rgba(174, 79, 189, 1) 58%, rgba(85, 82, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ae4fbd', endColorstr='#5552ff', GradientType=1);
+}
+
+:root {
+    --colorBase: #FC6000;
+    --colorBase2: rgba(10, 209, 17, 1);
+    --colorBase3: #5452ff;
+    --colorBase4: #575757;
+    --colorBase5: #eef1f2;
+    --colorBase6: #ff5c62;
+    /*     --colorTexto: #151618; */
+    --colorTexto: #1f2223;
+    /*DIMENSIONES EM  */
+    --sizeParrafo: 1.7em;
+}
+
+
+/* GUIAS DEL DESARROLLADOR */
+
+.desColor {
+    background-color: red;
+}
+
+
+/*boton de watasp*/
+
+.btn-whatsapp {
+    display: block;
+    width: 5em;
+    height: 5em;
+    color: #fff;
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
+}
+
+.btn-whatsapp img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    .body_1200 {
+        font-size: 9px;
+        padding-top: 1em;
+    }
+    .btn-whatsapp {
+        width: 4em;
+        height: 4em;
+    }
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {
+    .body_1200 {
+        font-size: 8px;
+        width: 95%;
+    }
+    .btn-whatsapp {
+        width: 3.5em;
+        height: 3.5em;
+        right: 0.5em;
+        bottom: 0em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .body_1200 {
+        font-size: 9px;
+        width: 95%;
+        flex-direction: column;
+    }
+    .btn-whatsapp {
+        width: 3.5em;
+        height: 3.5em;
+        right: 0.5em;
+        bottom: 0em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .body_1200 {
+        font-size: 8px;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:320px) {}

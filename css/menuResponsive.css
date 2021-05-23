@@ -1,0 +1,79 @@
+ #botonMenu {
+     display: none;
+     height: 6em;
+ }
+ 
+ .rm_menuResponsive1 {
+     display: none;
+ }
+ 
+ @media only screen and (max-width:768px) {
+     .rm_menuResponsive1 {
+         display: block;
+         z-index: 999;
+     }
+     .rm_menuResponsive {
+         width: 100vw;
+         background-color: #ffffff;
+         height: 3em;
+         position: relative;
+         position: fixed;
+         z-index: 999;
+     }
+     .logoMenuResponsive {
+         width: 13em;
+         margin-top: 0.6em;
+         margin-left: 1em;
+     }
+     .botonMenuResponsive {
+         width: 1.6em;
+         position: absolute;
+         top: 0.6em;
+         right: 1em;
+         cursor: pointer;
+     }
+     .cajaBotonesResponsive {
+         width: 100vw;
+         height: 100vh;
+         background-color: rgb(185, 27, 209);
+         position: absolute;
+         position: fixed;
+         z-index: 100;
+         left: -100vw;
+         transition: 1s;
+         padding-top: 5em;
+         z-index: 1000;
+     }
+     .cajaDeBotonesResponsive li {
+         widows: 100%;
+         list-style: none;
+         text-align: center;
+         margin-top: 1em;
+     }
+     .txtMenuResponsive {
+         color: #ffffff;
+         text-decoration: none;
+         font-size: 1em;
+         text-align: center;
+     }
+     .botonMenuResponsive2 {
+         cursor: pointer;
+         width: 1.6em;
+         position: absolute;
+         top: 0.6em;
+         right: 1em;
+     }
+     .mostrarMenu {
+         left: 0;
+         transition: 1s;
+     }
+     .ocultarMenu {
+         left: -100vw;
+         transition: 1s;
+     }
+     .txtMenuResponsive:hover {
+         color: rgba(137, 135, 255, 1);
+         font-weight: 900;
+         transition: 0.3s;
+     }
+ }

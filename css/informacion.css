@@ -1,0 +1,253 @@
+.informacionWEB {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8em;
+}
+
+.inf_cajaIzquierda {
+    width: 60%;
+    height: 60em;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+.inf_cajaIzquierda h1 {
+    font-size: 3.5em;
+    margin-top: 0.5em;
+}
+
+.inf_titulo_des {
+    color: #CE168D;
+}
+
+.inf_cajaDerecha {
+    width: 40%;
+    height: 60em;
+    position: relative;
+}
+
+.infoIzquierdaContenidos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+}
+
+.cajaSolicitarInformacion {
+    width: 30em;
+    height: 40em;
+    margin-left: 0.5em;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(92, 92, 92, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(92, 92, 92, 1);
+    box-shadow: 0px 0px 5px 0px rgba(92, 92, 92, 1);
+    padding-left: 2em;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+.icotineda {
+    width: 4em;
+    margin-top: 2em;
+}
+
+.cajaSolicitarInformacion h2 {
+    font-size: 2.2em;
+    margin-top: 1em;
+    font-weight: 900;
+    color: var(--colorTexto);
+}
+
+.info_parrafo {
+    font-size: 1.5em;
+    margin-top: 1em;
+    font-weight: 600;
+    color: var(--colorBase4);
+    text-align: justify;
+}
+
+.info_listadoDeServicios {
+    margin-top: 3em;
+    margin-left: 2em
+}
+
+.info_listadoDeServicios li {
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    font-weight: 600;
+    color: var(--colorBase4);
+    text-align: justify;
+}
+
+.botonSolicitarInformacion {
+    display: block;
+    font-size: 2em;
+    padding: 0.5em;
+    width: 10em;
+    margin-top: 2em;
+    margin-left: -1em;
+    border-radius: 0px 100px 100px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    background: rgba(206, 22, 142, 1);
+    background: -moz-linear-gradient(left, rgba(206, 22, 142, 1) 0%, rgba(206, 22, 142, 1) 35%, rgba(107, 104, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(206, 22, 142, 1)), color-stop(35%, rgba(206, 22, 142, 1)), color-stop(100%, rgba(107, 104, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(206, 22, 142, 1) 0%, rgba(206, 22, 142, 1) 35%, rgba(107, 104, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(206, 22, 142, 1) 0%, rgba(206, 22, 142, 1) 35%, rgba(107, 104, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(206, 22, 142, 1) 0%, rgba(206, 22, 142, 1) 35%, rgba(107, 104, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(206, 22, 142, 1) 0%, rgba(206, 22, 142, 1) 35%, rgba(107, 104, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ce168e', endColorstr='#6b68ff', GradientType=1);
+}
+
+.inf_cajaDerecha img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inf_img1 {
+    width: 34em;
+    height: 40em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.inf_img2 {
+    width: 30em;
+    height: 15em;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.inf_img3 {
+    width: 30em;
+    height: 15em;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cajaInfElementos {
+    padding-left: 5em;
+    padding-top: 1em;
+    box-sizing: border-box;
+}
+
+.elementosTienda {
+    margin: 0 0em 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.info_check {
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #CE168D;
+}
+
+.info_check img {
+    width: 1.4em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+
+.txtElemento {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 1em;
+    color: var(--colorTexto);
+}
+
+
+/* -------------------- */
+
+.bannerFireframes {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../imagen/informacion/tapis2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.bannerFireframes div {
+    width: 40em;
+    height: 15em;
+    border: 1px #ffffff dashed;
+    box-sizing: border-box;
+}
+
+.bannerFireframes div h2 {
+    font-size: 4em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.6em;
+    font-weight: 900;
+}
+
+.bannerFireframes div p {
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+/*----------------------------------
+# SECCION DE INFORMACIÓN DE SITIOS 2
+----------------------------------*/
+
+.informacionWEB2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+}
+
+.info2_derecha {
+    width: 40%;
+    height: 60em;
+}
+
+.info2_derecha img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info2_derecha div {
+    width: 40em;
+    height: 40em;
+}
+
+.info2_izquierda {
+    width: 60%;
+    height: 60em;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+
+.leyenda {
+    color: #CE168D;
+    font-size: 2em;
+}
+
+.info2_izquierda h1 {
+    font-size: 3.5em;
+    margin-top: 0em;
+}
+
+.info_parrafo2 {
+    font-size: var(--sizeParrafo);
+    margin-top: 1em;
+    color: var(--colorTexto);
+    text-align: justify;
+}

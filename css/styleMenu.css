@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #dfd8d8;
+    font-size: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+
+/*--------------------------
+#Sección del menu y logo
+--------------------------*/
+
+#rm_menu {
+    width: 95%;
+    height: 6em;
+    margin: auto;
+}
+
+.rm_logo {
+    display: block;
+    width: 25em;
+    float: left;
+    margin-top: 1.3em;
+}
+
+.noneQuitar {
+    display: none;
+    width: 25em;
+    float: left;
+    margin-top: 1em;
+}
+
+.rm_nav {
+    list-style: none;
+    width: 25em;
+    float: right;
+    margin-top: 1.7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+}
+
+.textMenu {
+    text-decoration: none;
+    color: #413e66;
+    font-weight: 600;
+}
+
+.botoncontactar {
+    display: none;
+}
+
+.rm_nav li a:hover {
+    color: gold;
+    transition: 0.4s;
+}
+
+
+/*------------------------------
+#Seccion de boton de contacto
+------------------------------*/
+
+.rm_botonContactar {
+    display: block;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(185, 27, 209);
+    color: #fff;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 100px;
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-left: 2em;
+    transition: 0.4s;
+}
+
+.rm_botonContactar:hover {
+    background-color: #2ECC71;
+    transition: 0.4s;
+}
+
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    .header {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:768px) {
+    .header {
+        font-size: 9px;
+    }
+    #rm_menu {
+        width: 100%;
+        background-color: #fff;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: none;
+    }
+    #rm_logo {
+        display: none;
+    }
+    .rm_botonContactar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width:320px) {}

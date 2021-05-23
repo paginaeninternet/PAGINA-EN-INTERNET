@@ -1,0 +1,230 @@
+.headerWireframes {
+    width: 95%!important;
+    transition: 1s;
+}
+
+.cajaDeWireframes {
+    padding-top: 4em;
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaCategorias {
+    width: 30em;
+    height: 90em;
+    display: inline-block;
+    border-right: 1px solid #dfd8d8;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+
+.buscador {
+    border: none;
+    outline: none;
+    border: 1px solid indigo;
+    width: 90%;
+    font-size: 1.5em;
+    height: 2.2em;
+    margin-top: 7em;
+    margin-left: 0em;
+    background: url(../imagen/iconos/lupa.svg) no-repeat padding-box 1em;
+    background-size: 1em;
+    padding-left: 3em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 3em;
+    box-sizing: border-box;
+}
+
+.listaCategoriasWireframes {
+    margin-top: 5em;
+    list-style-type: /* disc */
+    none;
+    color: var(--colorBase4);
+    margin-left: 0em;
+    padding-right: 3em;
+    box-sizing: border-box;
+}
+
+.listaCategoriasWireframes li {
+    margin-top: 1em;
+    font-size: 1.6em;
+    padding: 0.3em;
+    border: 1px solid rgb(182, 181, 181);
+    transition: 0.3s;
+}
+
+.listaCategoriasWireframes li:hover {
+    background-color: indigo;
+    margin-left: 0.5em;
+    transition: 0.3s;
+}
+
+.listaCategoriasWireframes li:hover a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.listaCategoriasWireframes li a {
+    text-decoration: none;
+    color: var(--colorTexto);
+    transition: 0.3s;
+}
+
+.listaCategoriasWireframes li a:hover .ico_wire img {
+    margin-left: 0.5em;
+    transition: 0.3s;
+    color: rgba(85, 82, 255, 1);
+}
+
+.ico_wire img {
+    width: 1em;
+    margin-right: 0.5em;
+    display: none;
+}
+
+.cajaContenidos {
+    width: 100%;
+    height: 90em;
+    overflow-y: scroll;
+}
+
+.cajaDeTituloWireframes {
+    width: 100%;
+    padding-top: 9em;
+    padding-bottom: 9em;
+}
+
+.cajaDeTituloWireframes p {
+    font-size: 4.5em;
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+    margin-left: 1em;
+    color: var(--colorTexto);
+}
+
+.cajaDeWireframesFiltrados {
+    width: 100%;
+    height: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgWireframes {
+    width: 35em;
+    height: 30em;
+    margin: 0 2em;
+}
+
+.cajaDeImg_w {
+    width: 100%;
+    height: 19.6em;
+    position: relative;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.75);
+}
+
+.img_w {
+    transition: 1s;
+}
+
+.etiquetasDeIMG_w {
+    padding: 1em 0.3em 1em 0.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.etiquetasDeIMG_w p {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--colorBase4);
+}
+
+.etiquetasDeIMG_w>p>span {
+    color: var(--colorTexto);
+}
+
+.cajaDeImg_w:hover {
+    transition: 1s;
+}
+
+.imgWireframes:hover .botonver {
+    transition: 0.6s;
+    opacity: 100%;
+    margin: auto;
+}
+
+.botonver {
+    font-size: 1.6em;
+    display: block;
+    width: 6em;
+    height: 2.5em;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+    border-radius: 100px;
+    text-align: center;
+    background-color: indigo;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-decoration: none;
+    opacity: 0%;
+    transition: 0.3s;
+}
+
+.botonver:hover {
+    background-color: rgb(185, 27, 209);
+}
+
+.imgWireframes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*------------------------
+# CONFIGURACIÓN RESPONSIVE
+------------------------*/
+
+@media only screen and (max-width:1366px) {
+    .cajaContenidos {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .cajaContenidos {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .cajaContenidos {
+        font-size: 0.65em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cajaContenidos {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .cajaContenidos {
+        font-size: 0.7em;
+    }
+}
