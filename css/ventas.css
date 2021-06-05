@@ -161,8 +161,16 @@
     border-radius: 1rem;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 40%, rgba(185, 27, 209, 1) 78%, rgba(255, 82, 82, 1) 100%);
-    /* padding: 1.5rem;*/
+    padding: 1.5rem;
     color: var(--colorBase5);
+}
+
+.oferta_izq {
+    width: 50%;
+}
+
+.oferta_der {
+    width: 50%;
 }
 
 .oferta_izq h2 {
@@ -365,6 +373,14 @@
         margin-top: 2em;
     }
     /* ------------------------------ */
+    /* ofertas */
+    .oferta {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -395,6 +411,14 @@
         width: 100%;
         height: auto;
         margin-top: 10em;
+    }
+    /* ofertas */
+    .oferta {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
