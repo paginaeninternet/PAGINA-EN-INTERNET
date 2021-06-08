@@ -162,6 +162,72 @@
 }
 
 
+/*preguntas frecuentes*/
+
+.Frecuentes_Titulo {
+    color: var(--colorBase3);
+    font-size: 1.3rem;
+}
+
+.lista {
+    background: white;
+    max-width: 50%;
+    margin: left;
+    border-radius: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.pregunta {
+    padding: 9px;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.pregunta i {
+    font-size: 21px;
+    transition: .3s;
+}
+
+.pregunta span {
+    transition: .3s;
+}
+
+.pregunta:hover span {
+    margin-left: 15px;
+}
+
+.pregunta:last-child {
+    border: none;
+}
+
+.respuesta {
+    text-align: justify;
+    background: var(--colorBase5);
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    padding: 0 14px;
+}
+
+
+/* Estilos para una pregunta seleccionada */
+
+.resp_act {
+    padding-top: 2px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.ico_resp_act {
+    transform: rotate(180deg);
+}
+
+
 /* --- popUp dominio */
 
 .popUpDominio {

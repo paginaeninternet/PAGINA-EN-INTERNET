@@ -371,14 +371,18 @@
 
 /*preguntas frecuentes*/
 
+.Frecuentes_Titulo {
+    color: var(--colorBase3);
+    font-size: 1.3rem;
+}
+
 .lista {
     background: white;
     max-width: 50%;
-    margin: auto;
+    margin: left;
     border-radius: 10px;
     list-style: none;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
 }
 
 .pregunta {
@@ -410,7 +414,7 @@
 
 .respuesta {
     text-align: justify;
-    background: #f3f3f3;
+    background: var(--colorBase5);
     height: 0;
     overflow: hidden;
     transition: .5s;

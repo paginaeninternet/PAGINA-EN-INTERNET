@@ -156,12 +156,13 @@
     height: auto;
     width: auto;
     display: flex;
+    max-width: 70%;
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 1rem;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 40%, rgba(185, 27, 209, 1) 78%, rgba(255, 82, 82, 1) 100%);
-    padding: 1.5rem;
+    padding: 1rem;
     color: var(--colorBase5);
 }
 
@@ -375,7 +376,7 @@
     /* ------------------------------ */
     /* ofertas */
     .oferta {
-        width: 90%;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -414,11 +415,10 @@
     }
     /* ofertas */
     .oferta {
-        width: 80%;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        text-align: center;
     }
 }
 
